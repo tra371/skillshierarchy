@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import pandas as pd
-from .dataset import (
+from .dataset.skills import (
     business_skills,
     specialty_skills,
     law_skills,
